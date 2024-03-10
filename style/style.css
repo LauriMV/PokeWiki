@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+    
+}
+
+/*body {
+    background-color: rgb(239, 71, 71);
+}
+*/
+body{
+    background-image: url(./img/zubat.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat ;
+    color: black;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.characters {
+    max-width: 1003px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0px;
+}
+
+.characters article {
+    background-color: rgb(210, 204, 151);
+    width: calc(25% - 20px);
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 10px #444;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.header {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+   
+}
+
+
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.logo-header {
+    display: block;
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+
+.div-main1{
+    height: 34px;
+    width: 155px;
+    font-size: x-large;
+    border: 40px;
+    margin-left: 50px;
+    
+
+    }
+
+
+ .deco-li{
+ list-style: none;
+ box-shadow: 4px 4px 10px yellowgreen;
+ border-radius: 20px;
+ background-color: rgb(210, 204, 151);;
+ border: 1px solid black;
+ padding: 20px;
+ margin: 10px;
+ text-align: center;
+ text-decoration: none;
+ }
+ 
+
